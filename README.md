@@ -1,5 +1,5 @@
 # hajdew.github.io
-this is for Sony-Add-on-SDK.xml
+now i want to make apps for SW2 possible
 
 So i want to be albe to create an Smart Watch 2 app
 Smart Watch lost any support from sony so i have to recreate some files to be albe to make an app.
