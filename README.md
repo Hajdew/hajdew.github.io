@@ -8,3 +8,5 @@ Now i want to recreate Sony-Add-on-SDK.xml beacause i need it for packages which
 
 I follow this tutorial to for SW2
 https://www.youtube.com/playlist?list=PL5pQGf3bL4SnL09StSH5dlpTHDbFrSVwL
+
+Devicesprofiles.zip got lost but now i try to recreate it for proper working.
