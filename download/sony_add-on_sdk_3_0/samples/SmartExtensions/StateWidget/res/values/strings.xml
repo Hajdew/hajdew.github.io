@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="app_name">State Widget</string>
+    <string name="preference_activity_title">State Widget settings</string>
+    <string name="configuration_text">State Widget settings</string>
+    <string name="extension_name">State Widget</string>
+    <string name="widget_name">State Widget</string>
+
+    <string name="preference_key_read_me">preference_key_read_me</string>
+    <string name="preference_option_read_me">READ ME</string>
+    <string name="preference_option_read_me_txt">The State Widget implements a single widget that provides a layouts for each of the three supported Accessory States. It also implements a Simple Control extensions that is opened when the Widget is pressed.</string>
+
+    <string name="preference_widget_text_key">preferencer_widget_text_key</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="powersave">Powersave</string>
+    <string name="press_here">Press here</string>
+    <string name="no_touch_text_not_set">Powersave text not set</string>
+    <string name="disconnected_text_not_set">Disconnected text not set</string>
+    <string name="widget_pressed">Widget Pressed</string>
+
+</resources>

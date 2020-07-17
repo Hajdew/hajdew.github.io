@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/smart_watch_2_control_width"
+    android:layout_height="@dimen/smart_watch_2_control_height"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:ignore="ContentDescription,PxUsage" >
+
+    <TextView
+        android:id="@+id/btn_low_power"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_margin="6px"
+        android:layout_weight="1"
+        android:background="@android:color/black"
+        android:textSize="@dimen/smart_watch_2_text_size_large"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/btn_low_power_start"
+        android:textColor="@color/smart_watch_2_text_color_orange" />
+
+    <TextView
+        android:id="@+id/tv_low_power"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_margin="6px"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/smart_watch_2_text_size_large" />
+
+</LinearLayout>

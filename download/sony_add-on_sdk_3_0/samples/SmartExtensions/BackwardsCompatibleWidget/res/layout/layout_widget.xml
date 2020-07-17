@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- px is used since this is a layout for the accessory display. -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:gravity="center"
+    tools:ignore="PxUsage,Overdraw" >
+
+    <TextView
+        android:id="@+id/widget_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/updates"
+        android:textColor="@color/smart_watch_text_color_orange"
+        android:textSize="24px"/>
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- No translation of sample extensions -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="app_name">Clock widgets</string>
+    <!-- Title of preference activity -->
+    <string name="preference_activity_title">Clock widgets settings</string>
+    <!-- Configuration text shown in preferences -->
+    <string name="configuration_text">Clock widgets settings</string>
+    <!-- Extension name, shown in preferences -->
+    <string name="extension_name">Clock widgets</string>
+    <string name="clock_widget_levellist_name">LevelList Clock</string>
+    <string name="clock_widget_roboto_name">Roboto Clock</string>
+    <string name="date_widget_name">Short Date</string>
+    <string name="weekday_and_date_widget_name">Long Date</string>
+    <string name="clock_widget_analog_name">Analog Clock</string>
+    <string name="clock_widget_analog_levellist_name">LevelList Analog Clock</string>
+    <string name="extension_info">Clock widgets</string>
+    <string name="preference_option_read_me">READ ME</string>
+    <string name="preference_key_read_me">preference_key_read_me</string>
+    <string name="preference_option_read_me_txt">The clock widget extension uses TimeViews to show current time and date on the accessory in different widgets.</string>
+    <string name="preference_key_clock_mode">preference_key_clock_mode</string>
+
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:widgets="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:weightSum="1" >
+
+    <!-- This layout contain components that displays a digital watch with an
+    orange background for the hours and no set background for the minutes.
+    Use TimeLayout components to place TimeViews showing e.g. hours or minutes
+    when building up the UI. -->
+
+    <com.sonyericsson.extras.liveware.aef.widget.TimeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:background="@color/smart_watch_2_text_color_orange"
+        android:padding="5px"
+        widgets:gravity="center" >
+
+        <!-- Defines the most significant hour digit by using a TimeView
+        referencing a level-list drawable and setting the timeType to
+        hours_digit2. -->
+        <com.sonyericsson.extras.liveware.aef.widget.TimeView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/clock_widget_hours_msn"
+            widgets:timeType="hours_digit2" />
+
+        <!-- Defines the least significant hour digit by using a TimeView
+        referencing a level-list drawable and setting the timeType to
+        hours_digit1. -->
+        <com.sonyericsson.extras.liveware.aef.widget.TimeView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/clock_widget_hours_lsn"
+            widgets:timeType="hours_digit1" />
+    </com.sonyericsson.extras.liveware.aef.widget.TimeLayout>
+
+    <com.sonyericsson.extras.liveware.aef.widget.TimeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:padding="5px"
+        widgets:gravity="center" >
+
+        <!-- Defines the most significant minute digit by using a TimeView
+        referencing a level-list drawable and setting the timeType to
+        minutes_digit2. -->
+        <com.sonyericsson.extras.liveware.aef.widget.TimeView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/clock_widget_minutes_msn"
+            widgets:timeType="minutes_digit2" />
+
+        <!-- Defines the most significant minute digit by using a TimeView
+        referencing a level-list drawable and setting the timeType to
+        minutes_digit2. -->
+        <com.sonyericsson.extras.liveware.aef.widget.TimeView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/clock_widget_minutes_lsn"
+            widgets:timeType="minutes_digit1" />
+    </com.sonyericsson.extras.liveware.aef.widget.TimeLayout>
+
+</LinearLayout>

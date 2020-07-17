@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Defines the least significant minute number using a level-list of drawables
+that can be referenced when creating clocks. -->
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/digit_0_light" />
+    <item android:drawable="@drawable/digit_1_light" />
+    <item android:drawable="@drawable/digit_2_light" />
+    <item android:drawable="@drawable/digit_3_light" />
+    <item android:drawable="@drawable/digit_4_light" />
+    <item android:drawable="@drawable/digit_5_light" />
+    <item android:drawable="@drawable/digit_6_light" />
+    <item android:drawable="@drawable/digit_7_light" />
+    <item android:drawable="@drawable/digit_8_light" />
+    <item android:drawable="@drawable/digit_9_light" />
+</level-list>
