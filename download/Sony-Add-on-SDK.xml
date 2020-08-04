@@ -100,8 +100,8 @@ This is the entire agreement between Sony and You relating to the Software, and 
         <sdk:archives>
             <sdk:archive arch="any" os="any">
                 <sdk:size>3462</sdk:size>
-                <sdk:checksum type="sha1">f75b04d13b14e4c471650d00996b6d3f84a0293e</sdk:checksum>
-                <sdk:url>DeviceProfiles.zip</sdk:url>
+                <sdk:checksum type="sha1">97EC5880A96B8BFBEEB261ABDB45F4ADECEC87AA</sdk:checksum>
+                <sdk:url>DeviceProfiles.rar</sdk:url>
             </sdk:archive>
         </sdk:archives>
     </sdk:extra>

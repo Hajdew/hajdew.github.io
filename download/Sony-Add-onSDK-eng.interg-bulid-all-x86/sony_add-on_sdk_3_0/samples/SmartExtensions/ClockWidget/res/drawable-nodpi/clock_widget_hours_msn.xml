@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Defines the most significant hour number using a level-list of drawables
-that can be referenced when creating clocks. -->
-<level-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/digit_0" />
-    <item android:drawable="@drawable/digit_1" />
-    <item android:drawable="@drawable/digit_2" />
-</level-list>
-
